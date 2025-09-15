@@ -1,0 +1,45 @@
+# UNIVERSIDADE VEIGA DE ALMEIDA  
+## Backend // AVA2  
+
+**Nome do Aluno:**  Gabriel Ferreira de B da Silva
+**Matrícula:**  1240201787
+**Professor:** André Luiz Braga  
+
+---
+
+## 📌 Descrição do Projeto
+O **projeto-clinica** é um sistema de agendamento de consultas desenvolvido com **Node.js (Express) no backend** e **Vue.js no frontend**, utilizando **MongoDB** como banco de dados.  
+O sistema implementa autenticação JWT, cadastro, login, agendamento de consultas e painel administrativo para gestão dos agendamentos.  
+
+---
+
+## ⚙️ Funcionalidades
+- Cadastro e login de usuários.  
+- Autenticação e proteção de rotas com JWT.  
+- Agendamento de consultas com preenchimento automático de endereço (ViaCEP).  
+- Painel administrativo para visualizar agendamentos.  
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+- **Backend:** Node.js + Express + MongoDB  
+- **Frontend:** Vue.js + Vite  
+- **Autenticação:** JWT  
+- **API Externa:** ViaCEP (para busca de endereço)  
+
+---
+
+## ▶️ Como rodar o projeto localmente
+
+### 📍 Clonando o repositório
+```bash
+git clone https://github.com/SEU-USUARIO/projeto-clinica.git
+cd projeto-clinica
+
+cd back
+npm install
+npm run dev
+
+cd front
+npm install
+npm run dev
